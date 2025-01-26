@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.schedule {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.discription {
+  padding-left: 20px;
+}
+
+.scheduleBox {
+  padding: 20px;
+  margin: 20px;
+}
+.scheduleBox_name {
+  text-decoration: underline;
+}
+.scheduleBox_button {
+  padding: 5px 10px;
+}
+.scheduleBox_exitButton {
+  padding: 5px 10px;
+}
+.scheduleBox_input {
+  padding: 5px 10px;
+}/*# sourceMappingURL=style.css.map */
