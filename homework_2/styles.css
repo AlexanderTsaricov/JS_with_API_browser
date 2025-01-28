@@ -1,5 +1,9 @@
 .pics {
   width: 50%;
+  border: 10px solid #fff;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .box {
@@ -11,10 +15,18 @@
 }
 
 .buttons {
-  padding: 5px 10px;
+  background: linear-gradient(45deg, #ff7b00, #ff3a00);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .buttons:hover {
-  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .buttonsBox {
@@ -27,6 +39,21 @@
   align-items: center;
 }
 
-.circlButton:hover {
+.circlButton {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #3498db;
+  background-color: #fff;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.circlButton:checked {
+  background-color: #3498db;
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
 }/*# sourceMappingURL=styles.css.map */
