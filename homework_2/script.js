@@ -6,8 +6,6 @@ const navcircleBox = document.querySelector(".navCircleBox");
 const buttonLast = document.querySelector(".last");
 const buttonNext = document.querySelector(".next");
 
-picSrc.forEach((element) => {});
-
 for (let index = 0; index < picSrc.length; index++) {
     const circle = document.createElement("input");
     circle.type = "radio";
