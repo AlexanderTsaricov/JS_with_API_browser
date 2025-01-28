@@ -1,0 +1,22 @@
+.openModal {
+  padding: 5px 10px;
+  background-color: #384434;
+  color: beige;
+  transition: all 0.3s ease, transform 0.3s ease;
+}
+.openModal:hover {
+  cursor: pointer;
+  background-color: #718371;
+}
+
+.modalWindow {
+  visibility: hidden;
+  margin-top: 25px;
+  width: 50%;
+  padding: 25px;
+  background-color: #5e5c5c;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.3s ease, transform 0.3s ease;
+}/*# sourceMappingURL=style.css.map */
