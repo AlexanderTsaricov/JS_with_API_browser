@@ -1,0 +1,21 @@
+.menu {
+  background-color: #222222;
+}
+
+.menuButton {
+  padding: 5px 10px;
+  background-color: #535353;
+  color: #acacac;
+  transition: all 0.3s ease;
+}
+.menuButton:hover {
+  cursor: pointer;
+}
+
+.hover {
+  background-color: #361b1b;
+}
+
+.click {
+  background-color: #112c22;
+}/*# sourceMappingURL=style.css.map */
