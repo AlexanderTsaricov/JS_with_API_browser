@@ -1,0 +1,10 @@
+.payButton {
+    background-color: #7e3737;
+    color: #c29d9d;
+    padding: 5px 15px;
+    transition: all 0.3s ease, transform 0.3s ease;
+    &:hover {
+        cursor: pointer;
+        background-color: #473d3d;
+    }
+}
