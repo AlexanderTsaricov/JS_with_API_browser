@@ -57,6 +57,29 @@ body {
   border-radius: 8px;
   width: 100%;
 }
+.imgBox_getLastPhoto {
+  background-color: #058344;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+}
+.imgBox_getLastPhoto:hover {
+  background-color: #034b0f;
+  transform: scale(1.1);
+}
+.imgBox_getLastPhoto:active {
+  transform: scale(0.95);
+}
 
 .likeBox {
   display: flex;
@@ -89,7 +112,7 @@ body {
   font-size: 16px;
   color: #333;
 }
-.likeBox__globalCount {
+.likeBox_globalCount {
   font-size: 18px;
   font-weight: bold;
   color: #555;
@@ -106,12 +129,12 @@ body {
   background-color: #ff4d4d;
   padding: 10px;
   border-radius: 8px;
-  position: absolute;
+  position: fixed;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 20px;
   text-align: center;
   transition: visibility 0.3s ease, opacity 0.3s ease;
+  z-index: 100;
 }
 
 .connect.online {
@@ -124,4 +147,60 @@ body {
   background-color: #af4c4c;
   visibility: visible;
   opacity: 1;
+}
+
+.historyBox {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.historyBox_header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.historyBox_ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.historyBox_li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.historyBox_button {
+  background-color: #058344;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.historyBox_button:hover {
+  background-color: #034b0f;
+  transform: scale(1.1);
+}
+.historyBox_button:active {
+  transform: scale(0.95);
 }/*# sourceMappingURL=style.css.map */
