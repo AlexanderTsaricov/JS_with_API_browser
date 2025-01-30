@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #034b0f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.imgBox {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  width: 100%;
+}
+.imgBox_img {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  background: #ddd;
+}
+.imgBox_photographName {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+.imgBox_discription {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.4;
+  background: #f8f8f8;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.likeBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.likeBox_button {
+  background-color: #058344;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.likeBox_button:hover {
+  background-color: #034b0f;
+  transform: scale(1.1);
+}
+.likeBox_button:active {
+  transform: scale(0.95);
+}
+.likeBox_svg {
+  width: 24px;
+  height: 24px;
+}
+.likeBox_count {
+  font-size: 16px;
+  color: #333;
+}
+.likeBox__globalCount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #e0e0e0;
+  margin-left: 20px;
+}
+
+.connect {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff4d4d;
+  padding: 10px;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+}
+
+.connect.online {
+  background-color: #4caf50;
+  visibility: visible;
+  opacity: 1;
+}
+
+.connect.offline {
+  background-color: #af4c4c;
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
